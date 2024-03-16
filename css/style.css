@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+body {
+  background-image: url(../img/decktop_bacround.svg);
+  background-repeat: no-repeat;
+  font-family: "Space Grotesk";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  height: 527px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .cards {
+  max-width: 571px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+body section .cards .card_top {
+  max-width: 447px;
+  width: 100%;
+  background-image: url(../img/card_top.svg);
+  background-repeat: no-repeat;
+  padding: 28px 32px;
+}
+
+body section .cards .card_top #card_number {
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 3.422222137451172px;
+  text-align: left;
+  color: white;
+  padding-top: 64px;
+  max-width: 447px;
+  width: 100%;
+}
+
+body section .cards .card_top .user_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 383px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 25px;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: white;
+}
+
+body section .cards .card_bottom {
+  background-image: url(../img/card_bottom.svg);
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  max-width: 447px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 94px;
+  margin-top: 34px;
+  padding-bottom: 47px;
+}
+
+body section .cards .card_bottom .black {
+  max-width: 447px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+body section .cards .card_bottom .cardd_nomer {
+  max-width: 361px;
+  width: 100%;
+  height: 38px;
+  background-color: #888484;
+  margin-top: 23px;
+  text-align: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+body section .cards .card_bottom img {
+  width: 186px;
+  margin-top: 33px;
+}
+
+body section .cards_info .first_info,
+body section .cards_info .sceond_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section .cards_info .first_info label,
+body section .cards_info .sceond_info label {
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-top: 26px;
+}
+
+body section .cards_info .first_info input,
+body section .cards_info .sceond_info input {
+  width: 381px;
+  height: 45px;
+  margin-top: 9px;
+  border: 1px solid #978e8e;
+  border-radius: 10px;
+  outline: none;
+}
+
+body section .cards_info .first_info input::-webkit-input-placeholder,
+body section .cards_info .sceond_info input::-webkit-input-placeholder {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+body section .cards_info .first_info input:-ms-input-placeholder,
+body section .cards_info .sceond_info input:-ms-input-placeholder {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+body section .cards_info .first_info input::-ms-input-placeholder,
+body section .cards_info .sceond_info input::-ms-input-placeholder {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+body section .cards_info .first_info input::placeholder,
+body section .cards_info .sceond_info input::placeholder {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+body section .cards_info .thrity_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 26px;
+}
+
+body section .cards_info .thrity_info .numbert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .cards_info .thrity_info .numbert #month,
+body section .cards_info .thrity_info .numbert #year {
+  margin-right: 10px;
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 9px;
+  border: 1px solid #978e8e;
+  border-radius: 10px;
+  outline: none;
+}
+
+body section .cards_info .thrity_info .numbert1 #uch {
+  width: 191px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 9px;
+  border: 1px solid #978e8e;
+  border-radius: 10px;
+  outline: none;
+}
+
+body section .cards_info #Confirm {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  background-color: #21092f;
+  border-radius: 10px;
+}
+
+@media (max-width: 950px) {
+  body {
+    background-image: url(../img/media_bacround.svg);
+    background-size: cover;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body section .cards .card_top {
+    -webkit-transform: translateY(-54px);
+            transform: translateY(-54px);
+  }
+  body section .cards .card_top #card_number {
+    padding-top: 37px;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 2.200000047683716px;
+    text-align: left;
+  }
+  body section .cards .card_bottom {
+    margin: 0;
+    margin-left: 57px;
+  }
+  body section .cards_info {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
