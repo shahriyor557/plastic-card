@@ -35,24 +35,33 @@
             <div class="first_info">
                 <label for="User_name">Cardholder Name</label>
                 <input type="text" placeholder="e.g. Jane Appleseed" id="User_name">
+                <span id="error_name"> </span>
             </div>
             <div class="sceond_info">
                 <label for="User_card_name">Card Number</label>
                 <input type="number" placeholder="e.g. 1234 5678 9123 0000" id="User_card_name">
+                <span id="error_card"></span>
             </div>
             <div class="thrity_info">
                 <div>
                     <label for="month">Exp. Date (MM/YY)</label>
                     <div class="numbert">
                         <input type="number" placeholder="MM" id="month" />
+                        <br>
+                        <span id="error_month"> </span>
                         <input type="number" placeholder="YY" id="year" />
+                        <br>
+                        <span id="error_year"> </span>
+
                     </div>
+                    <span id="error_month_year"></span>
                 </div>
 
                 <div class="numbert1">
                     <label for="uch">CVC</label>
                     <br>
                     <input type="number" placeholder="e.g. 123" class="uchinchi" id="uch" />
+                    <span id="error_svs"></span>
                 </div>
             </div>
             <button id="Confirm">Confirm</button>

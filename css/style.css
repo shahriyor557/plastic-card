@@ -12,6 +12,10 @@ body {
   display: flex;
 }
 
+body span {
+  font-family: "Space Grotesk";
+}
+
 body section {
   margin: 0 auto;
   display: -webkit-box;
